@@ -11,6 +11,6 @@ public abstract class Visibility {
 		this.inBackground = !this.inBackground; 
 	};
 	public boolean isVisible() {
-		return this.inBackground;
+		return !this.inBackground;
 	};
 }
